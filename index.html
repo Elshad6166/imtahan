@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>My Caps Maker</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<div id="main">
+<!-- Start  Header -->
+<div class="header">
+	<p class="caps">MY CAPS MAKER</p>
+<div class="pictureFrame"></div>
+<div class="changeWord">
+	<span>Bu Yazını dəyişəbilərsiniz</span>
+</div> 
+<br>
+<div class="addText"> 
+	<span id="mentiniDeyis">Mətin əlavə edin</span>
+</div>
+<button class="changeText" onclick="changeMetin()">MƏTİNİ DEYİŞ</button>
+<br>
+<br>
+
+<div class="addLink">
+	<span>Şəkil Linki əlavə edin</span>
+</div>
+<button class="changePicture" onclick="changeJpg()">ŞƏKİLİ DƏYİŞ</button>
+<br>
+<br>
+<div class="effects">
+<br>
+<button class="effekt01020304" onclick="changeJpg1()">effekt 04</button>
+<button class="effekt01020304" onclick="changeJpg2()">effekt 03</button>
+<button class="effekt01020304" onclick="changeJpg3()">effekt 02</button>
+<button class="effekt01020304" onclick="changeJpg4()">effekt 01</button>
+</div>
+</div>
+<!-- End  Header -->
+
+
+<div align="center"></div>
+</div>
+<script>
+
+function changeMetin() {
+    document.getElementById("mentiniDeyis").innerHTML = "Men Bu Metini Deyishdirdim";
+}
+
+function changeJpg1() {
+    document.getElementsByClassName("pictureFrame").innerHTML = "Men Bu Shekili Deyishe bilmedim--- Vaxtim catmadi sehifimi tapim";
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+
+#main {
+	border: 1px solid #eee;
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+}
+/* <!-- Start  Header --> */
+.header {
+	width: 800px;
+	margin: auto;
+}
+.caps {
+	font-size: 20px;
+	color: red;
+	font-family: Arial black;
+}
+.pictureFrame {
+	width: 800px;
+	height: 400px;
+	background-image: url("comp.jpg");
+	background-repeat: no-repeat;
+}
+.changeWord {
+	width: 800px;
+	height: 40px;
+	background: red;
+}
+.changeWord span {
+	color: white;
+	font-family: cursive;
+	margin-left: 20px;
+	font-size: 25px;
+}
+.addText {
+	width: 800px;
+	height: 40px;
+	border: 1px solid black;
+}
+.addText span {
+	font-family: cursive;
+	margin-left: 20px;
+	font-size: 25px;
+}
+.changeText {
+	width: 195px;
+	height: 30px;
+	background: red;
+	color: white;
+	float: right;
+	font-family: cursive;
+	margin-top: 2px;
+	margin-right: -2px;
+	font-size: 20px;
+	text-align: center;
+}
+.addLink {
+	width: 800px;
+	height: 40px;
+	border: 1px solid black;
+}
+.addLink span {
+	font-family: cursive;
+	margin-left: 20px;
+	font-size: 25px;
+}
+.changePicture {
+	width: 195px;
+	height: 30px;
+	background: red;
+	color: white;
+	float: right;
+	font-family: cursive;
+	margin-top: 2px;
+	margin-right: -2px;
+	font-size: 20px;
+	text-align: center;
+}
+.effects {
+	width: 800px;
+	text-align: center;
+	font-family: cursive;
+}
+.effekt01020304 {
+	width: 195px;
+	height: 30px;
+	background: red;
+	color: white;
+	margin: 2px;
+	float: right;
+}
+
+
+
+/* <!-- End  Header --> */
